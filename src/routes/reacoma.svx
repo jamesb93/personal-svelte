@@ -1,0 +1,45 @@
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+
+
+</style>
+
+# ReaCoMa
+
+ReaComa brings the power of the [FluCoMa](https://www.flucoma.org) tools to REAPER. This project was born from my own interest in porting the `fluid.noveltyslice~` algorithm (an implementation of the seminal [Foote paper](https://www.fxpal.com/publications/automatic-audio-segmentation-using-a-measure-of-audio-novelty.pdf)) to be used in my favourite DAW. Now, all of 'toolbox 1' is implemented alongside a set of [tutorial videos](https://www.youtube.com/watch?v=r3uHMXmlPRo&list=PLCQRw62RgghbsZgsA98lLkOwjBSs4yc9T) covering installation, usage and some in depth discussion on how you might apply the tools creatively.
+<img src="/img/reacoma.jpg" alt="reacoma logo" class="center">
+
+ReaCoMa might be interesting to you if you are concerned with signal decomposition, segmentation or transforming sounds in REAPER. With ReaCoMa you can perform:
+
+[Non-negative matrix factorisation(NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization)
+
+[Harmonic percussive source separation](https://learn.flucoma.org/decomposition/layers/layers_from_hpss/)
+
+[Transient isolation and manipulation](https://learn.flucoma.org/decomposition/layers/layers_from_transients/)
+
+[Sinusoidal resynthesis](https://learn.flucoma.org/decomposition/layers/layers_from_sines/)
+
+_...as well as numerous segmentation algorithms including:_
+
+Novelty slicing
+
+Amplitude slicing
+
+Transient slicing
+
+Spectrum slicing
+
+<hr>
+
+If you'd like to know more I suggest you check out these links:
+
+[FluCoMa Project - https://www.flucoma.org](https://www.flucoma.org)
+
+[ReaCoMa Homepage - https://www.reacoma.xyz](https://www.reacoma.xyz)
+
+[ReaCoMa Source Code - https://www.github.com/jamesb93/ReaCoMa](https://www.github.com/jamesb93/ReaCoMa)

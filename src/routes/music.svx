@@ -1,0 +1,53 @@
+<script>
+    import Waveform from "../components/Waveform.svelte"
+</script>
+
+<style>
+    .reduced-container {
+        width: 100%;
+    }
+</style>
+
+# music
+<div class="reduced-container">
+<Waveform 
+title={"Stitch/Strata (2019)"}
+subtitle={"Fixed Media (Live Diffusion)"}
+file={"/audio/StitchStrata.mp3"}
+buffer={"/waveforms/StitchStrata.dat"}
+/>
+
+<Waveform 
+title={"Annealing Strategies (2018)"}
+subtitle={"Annealing Strategies System"}
+file={"/audio/AnnealingStrategies.mp3"}
+buffer={"/waveforms/AnnealingStrategies.dat"}
+/>
+
+<Waveform 
+title={"Biomimicry 1 (2017)"}
+subtitle={"Trumpet and Biomimicry System"}
+performer={"Dan O'Connor"}
+perfLink={"https://www.danoconnor.xyz"}
+file={"/audio/Dan1.mp3"}
+buffer={"/waveforms/Dan1.dat"}
+/>
+
+<Waveform 
+title={"Biomimicry 2 (2017)"}
+subtitle={"Voice and Biomimicry System"}
+performer={"Sage Pbbbt"}
+perfLink={"https://sagepbbbt.com/"}
+file={"/audio/Sage1.mp3"}
+buffer={"/waveforms/Sage1.dat"}
+/>
+
+<Waveform 
+title={"Traced Over (Live) 2016"}
+subtitle={"Guitar and Electronics"}
+performer={"Jameson Feakes"}
+perfLink={"http://www.jamesonfeakes.com/"}
+file={"/audio/TracedOver.mp3"}
+buffer={"/waveforms/TracedOver.dat"}
+/>
+</div>

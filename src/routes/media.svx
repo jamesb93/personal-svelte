@@ -1,0 +1,27 @@
+<script>
+    let width = 420
+    let height = width
+</script>
+
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 0;
+        align-items: space-evenly;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+</style>
+
+# media
+
+<div class="container">
+<iframe width={width} height={height} src="https://www.youtube.com/embed/-FNO0QovfsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width={width} height={height} src="https://www.youtube.com/embed/IpD_XzW1Az4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width={width} height={height} src="https://www.youtube.com/embed/Ro30O9u7l8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width={width} height={height} src="https://www.youtube.com/embed/r3uHMXmlPRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

@@ -1,0 +1,7 @@
+# Annealing Strategies
+
+“Annealing Strategies” is a system, piece and patch that optimises and searches a chaotic parameter space using the process of simulated annealing. This algorithm mimics the physical mechanism of gradually cooling metal in order to remove internal stresses to strengthen it. The algorithm shares similarities with, and in a way is an improvement on the hill climbing algorithm, with the addition of a ‘temperature’ coefficient that allows for local minima and maxima to be escaped from. Random decisions are allowed with respect to this coefficient, meaning the system is volatile and explorative at high temperatures and more conservative and exploitative at low temperatures. As the system is cooled the system hones in on an optimised solution. 
+
+The sound generating guts of the system are a digital emulation of Peter Blasser’s [(Ciat-Lonbarde)](https://www.ciat-lonbarde.net) [Fyrall](https://www.ciat-lonbarde.net/fyrall/index.html). A single input is used to control the 24 parameters of the synthesis engine through a fixed and non-linear mapping. The output of the system is measured in decibels using an EBUR128 loudness descriptor, forming an unpredictable relationsip between a single input and output. The simulated annealing algorithm attempts to find at which input parameter the output can be minimised, creating a an exploratory journey toward an optimised solution.
+
+The output of this system can be found on the [music](music) page.

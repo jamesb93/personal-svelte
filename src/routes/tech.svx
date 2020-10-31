@@ -1,0 +1,62 @@
+# tech/honourable mentions
+
+Here is some software I use all the time for a variety of tasks.
+I think it's nice to share, and as a way of giving recognition to what are mostly free open-source projects.
+
+## Research
+- Knowledge management and notes with [Dendron](https://www.dendron.so)
+- Citation and reference management with [Zotero](https://www.zotero.org)
+- [Git](https://git-scm.com) for source control and version management
+
+## Composition
+- [REAPER](https://www.reaper.fm). My preference for a DAW due to the scripting interface.
+- [Max](https://cycling74.com). Less so now, but still finds its way into various musicking.
+- [SuperCollider](https://supercollider.github.io)
+- [FTIS](https://github.com/jamesb93/ftis). My own framework for corpus exploration and composition
+- [HISSTools](https://github.com/HISSTools/HISSTools_Impulse_Response_Toolbox). Tools for convolution and IR processing.
+- [Alex Harker Max Objects](https://github.com/AlexHarker/AHarker_Externals). Excellent set of Max objects for various tasks.
+- [FrameLib](https://github.com/AlexHarker/FrameLib). Frame-based processing in Max. I wrote the documentation builder for it and have contributed some other bits of code to the project.
+- [MeldaPlugins](https://www.meldaproduction.com). An amazing set of free plugins. I recommend it as a great part of one's toolkit.
+- [SoundHack](https://www.soundhack.com). A very nice set of plugins. I am officially in love with compand++.
+- [Limiter No. 6](https://vladgsound.wordpress.com/plugins/limiter6/). A good mastering limiter.
+- [ReaScripts](https://github.com/jamesb93/REAPER-Scripts) help me to do various bespoke tasks in REAPER such as item manipulation, batch rendering and finding awful VST3s.
+
+## Web Development
+- [Svelte](https://svelte.dev), for creating reactive websites. Seriously - Svelte is amazing.
+- [Hugo](https://gohugo.io), for building static sites like this one using markdown and templates.
+- [peaks.js](https://github.com/bbc/peaks.js/tree/master) draws all my audio waveforms on this website and provides lovely playback functionality
+- [audiowaveform](https://github.com/bbc/audiowaveform) for making binary data out of audio files
+
+## Coding
+- [VSCode](https://code.visualstudio.com). Although microsoft are certainly evil, VSCode is equally as pleasant to work with.
+- [Python](https://www.python.org)
+- [Nim](https://nim-lang.org)
+- [Omni](https://github.com/vitreo12/omni)
+- [lua](https://www.lua.org)
+
+## CLI Tools
+- [fish](https://fishshell.com). `fish` is what using the command line should be.
+- [ripgrep](https://github.com/BurntSushi/ripgrep). A replacement to `grep` that is fast and a pleasure to use.
+- [fd](https://github.com/sharkdp/fd). I lost it... I lost it... oh, `fd` found it.
+- [zoxide](https://github.com/ajeetdsouza/zoxide) helps me to zoom around my file system with lightning fingers.
+- [pandoc](https://pandoc.org) for manipulating and munging formats to formats.
+- [restic](https://restic.net) creates encrypted backups for all my perishable work.
+- [kitty](https://sw.kovidgoyal.net/kitty/) a really nice cross platform terminal.
+
+## Quality of life
+- [LuLU](https://objective-see.com/products/lulu.html) for controlling what my computer talks to
+- [Hammerspoon](https://www.hammerspoon.org) to help reduce friction where necessary. Scripts [here](https://github.com/jamesb93/hammerspoon)
+- [Rectangle](https://rectangleapp.com), because window management in macOS is criminally bad by default
+- [Karabiner Elements](https://karabiner-elements.pqrs.org) maps different shortcuts so I can use my keyboard how I want to (mainly disabling caps lock).
+
+## Gibgab
+- [Telegram](https://telegram.org) for talking to friends mostly.
+- [Signal](https://signal.org/en/) for talking to friends also, with a bit more privacy in mind.
+
+## Teaching
+- [Jitsi Meet](https://meet.jit.si)
+- [OBS](https://obsproject.com)
+- [KeyCastr](https://github.com/keycastr/keycastr)
+
+
+

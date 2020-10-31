@@ -1,0 +1,29 @@
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: auto 50%;
+        grid-column-gap: 1em;
+    }
+
+    img {
+        width: 100%;
+        max-height: 100%;
+    }
+</style>
+
+# Biomimicry
+
+<div class="container">
+<iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=2202860367/size=large/bgcol=ffffff/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="http://tonelist.bandcamp.com/album/biomimicry">Biomimicry by James Bradbury</a></iframe>
+<img src="/img/sage.jpg" alt="Sage Pbbbt at the first performance of Biomimicry in 2017.">
+</div>
+
+
+Biomicry is a co-compositional musical system that analyses improvisational input using audio descriptors. Using [mel-frequency cepstral coefficients (MFCC)](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum) the system assesses changes in amplitude and timbre in order to shape its interactive behaviour. Biomimicry is designed to mimic and follow its human counterpart, however, its digital memory is also programmed to occassionally fail and this tension fosters an interactive behaviour that weaves between intelligble and chaotic. Five distinct instances of Biomimicry were recorded with [Dan O'Connor](https://danoconnor.xyz) and [Sage Pbbbt](https://sagepbbbt.com), which were distributed as the debut release of the system and its corresponding EP through the wonderful new music label [Tone List]((https://www.tonelist.com.au)).
+
+Two select outputs from this system can be found on the [music](/docs/music) page. Alternatively you can listen from [bandcamp](https://tonelist.bandcamp.com/album/biomimicry).
+
+I also wrote a more [comprehensive article](https://quod.lib.umich.edu/i/icmc/bbp2372.2017.027/1/--biomimicry-analysis-of-a-corpus-based-interactive?page=root;size=150;view=pdf) for the 2017 ICMC in Shanghai.
+
+The artwork for the album was created by [Mary Martin](https://www.studio-marius.com/)
+
