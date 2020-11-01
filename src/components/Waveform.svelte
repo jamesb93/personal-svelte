@@ -50,11 +50,11 @@
                 },
                 dataUri: { arraybuffer: buffer },
                 mediaElement: audio,
-                height: 60,
+                height: 30,
                 segmentStartMarkerColor: '#a0a0a0',
                 segmentEndMarkerColor: '#a0a0a0',
-                zoomWaveformColor: 'rgba(0, 30, 128, 0.61)',
-                overviewWaveformColor: 'rgba(0, 15, 100, 0.3)',
+                zoomWaveformColor: 'rgba(0, 30, 128, 1.0)',
+                overviewWaveformColor: 'rgba(0, 15, 100, 1.0)',
                 overviewHighlightColor: 'grey',
                 segmentColor: 'rgba(255, 161, 39, 1)',
                 playheadColor: 'rgba(0, 0, 0, 1)',
@@ -83,7 +83,7 @@
         flex-direction: row;
 		flex-wrap: nowrap;
 		flex-basis: auto;
-		justify-content: flex-start;
+        justify-content: center;
     }
 
     .pp-button {
@@ -100,6 +100,10 @@
         font-size: 12px;
         padding: 0;
     }
+
+    .peaks-controls {
+        z-index: 100;
+    }
 </style>
 
 <div class="audio-box">
@@ -113,7 +117,7 @@
     {/if}
     <div bind:this={overview} />
     <div bind:this={zoom} />
-    <div bind:this={peaksControls}>
+    <div bind:this={peaksControls} class="peaks-controls">
         <audio bind:this={audio}>
             <source src={file} type="audio/mp3">
             <track kind="captions">
