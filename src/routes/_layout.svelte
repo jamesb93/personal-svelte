@@ -4,11 +4,19 @@
 
 <script>
 	import StaticNav from "../components/StaticNav.svelte"
+	import { fade } from 'svelte/transition';
+	import { onMount } from "svelte";	
 	export let segment;
+	let w;
+	let navshow = false;
+
+	function clickHandle() {
+		navshow = !navshow;
+	}
 </script>
 
 <style>
-	/* Grid */
+/* Grid */
 	.wrapper {
 		display: grid;
 		grid-template-columns: auto min(85ch, 100%) auto;
@@ -19,23 +27,40 @@
 		margin: 0 auto;
 	}
 
-	.wrapper > * {
-		grid-column: 2;
-	}
+	.wrapper > * {grid-column: 2;}
 
 	.content {
 		margin-top: 5em;
 		justify-content: center;
 		padding-left: 1em;
+		/* transition: 0.3s; */
+	}
+	.button-container {
+		position:fixed;
+		z-index: 100;
 	}
 
 </style>
 
 <svelte:head>
-	<title>James Bradbur | Sound & Code</title>
+	<title>James Bradbury | Sound & Code</title>
 </svelte:head>
+<svelte:window bind:innerWidth={w} />
 
 <div class="wrapper">
-	<StaticNav {segment} />
-	<main class="content"><slot></slot></main>
+	{#if w < 1296}
+	<div class="button-container">
+		<button on:click={clickHandle}>Show Navigation</button>
+	</div>
+	{/if}
+	{#if w > 1296}
+	<StaticNav {segment}/>
+	{:else if navshow}
+	<StaticNav {segment}/>
+	{/if}
+	<main 
+	class="content"
+	>
+		<slot></slot>
+	</main>
 </div>
