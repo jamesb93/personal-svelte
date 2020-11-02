@@ -4,14 +4,18 @@
 
 <script>
 	import StaticNav from "../components/StaticNav.svelte"
-	import { fade } from 'svelte/transition';
-	import { onMount } from "svelte";	
 	export let segment;
 	let w;
 	let navshow = false;
 
 	function clickHandle() {
 		navshow = !navshow;
+	}
+
+	function resizeHandle() {
+		if (w > 1296) {
+			navshow = false;
+		}
 	}
 </script>
 
@@ -40,27 +44,24 @@
 		z-index: 100;
 	}
 
+	.dim {
+		opacity: 0.25;
+	}
+
 </style>
 
 <svelte:head>
 	<title>James Bradbury | Sound & Code</title>
 </svelte:head>
-<svelte:window bind:innerWidth={w} />
-
+<svelte:window bind:innerWidth={w} on:resize={resizeHandle}/>
 <div class="wrapper">
 	{#if w < 1296}
 	<div class="button-container">
 		<button on:click={clickHandle}>Show Navigation</button>
 	</div>
 	{/if}
-	{#if w > 1296}
-	<StaticNav {segment}/>
-	{:else if navshow}
-	<StaticNav {segment}/>
+	{#if w > 1296 || navshow}
+	<StaticNav {segment} />
 	{/if}
-	<main 
-	class="content"
-	>
-		<slot></slot>
-	</main>
+	<main class="content" class:dim='{w < 1296 && navshow}'><slot></slot></main>
 </div>

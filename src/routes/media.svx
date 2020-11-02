@@ -17,11 +17,16 @@
 # media
 
 <div class="container">
-<iframe width={width} height={height} src="https://www.youtube.com/embed/-FNO0QovfsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width={width} height={height} src="https://www.youtube.com/embed/-FNO0QovfsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>
+        This is a presentation I gave at the 2020 Joint Conference on AI Music Creativity. In the presentation I discuss my approach to computer-assisted corpus exploration
+    </p>
 
 <iframe width={width} height={height} src="https://www.youtube.com/embed/IpD_XzW1Az4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+bar
 <iframe width={width} height={height} src="https://www.youtube.com/embed/Ro30O9u7l8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+baz
 <iframe width={width} height={height} src="https://www.youtube.com/embed/r3uHMXmlPRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+bob
 </div>

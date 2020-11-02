@@ -1,6 +1,7 @@
 <script>
+	import { fly } from 'svelte/transition';
 	export let segment;
-	import { fade } from 'svelte/transition';
+	export let show;
 </script>
 
 <style>
@@ -60,12 +61,14 @@
 		height: 100%;
 		background-color: white;
 		z-index: 99;
+		box-shadow: 1em;
 	}
 </style>
 
-<div transition:fade class="container" id="nav-container">
-	<nav transition:fade id="nav">
-		<ul transition:fade>
+
+<div transition:fly="{{duration: 300, x: -200}}" class="container" class:shadow='{show === true}'>
+	<nav id="nav">
+		<ul>
 			<br>
 			<li><a rel=prefetch class:selected='{segment === undefined}'  		href='.'>James Bradbury</a></li>
 			<i>james.bradbury@hud.ac.uk</i>
