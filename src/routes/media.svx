@@ -1,32 +1,46 @@
 <script>
     let width = 420
-    let height = width
+    let height = 200
+    import MediaItem from "../components/MediaItem.svelte"
 </script>
-
-<style>
-    .container {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        padding: 0;
-        align-items: space-evenly;
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
-    }
-</style>
 
 # media
 
-<div class="container">
+<MediaItem>
+    <iframe 
+    title="CSMC Presentation"
+    slot="media"
+    width={width} 
+    height={height} 
+    src="https://www.youtube.com/embed/-FNO0QovfsI" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
 
-    <iframe width={width} height={height} src="https://www.youtube.com/embed/-FNO0QovfsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>
-        This is a presentation I gave at the 2020 Joint Conference on AI Music Creativity. In the presentation I discuss my approach to computer-assisted corpus exploration
+    <p slot="description">
+        This presentation discusses an approach computer-aided corpus exploration that leverages machine listening and learning to discover connections between various hierarchical organisations.
     </p>
+</MediaItem>
 
-<iframe width={width} height={height} src="https://www.youtube.com/embed/IpD_XzW1Az4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-bar
-<iframe width={width} height={height} src="https://www.youtube.com/embed/Ro30O9u7l8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-baz
-<iframe width={width} height={height} src="https://www.youtube.com/embed/r3uHMXmlPRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-bob
-</div>
+<MediaItem>
+<iframe title="Plenary Presentation" slot="media" width={width} height={height} src="https://www.youtube.com/embed/IpD_XzW1Az4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p slot="description">
+    As part of one of the <a href="https://flucoma.org">FluCoMa</a> plenary weeks, I presented some in progress work on software I was building for corpus exploration, using the FluCoMa tools to perform segmentation and analysis.
+</p>
+</MediaItem>
+
+<MediaItem>
+<iframe slot="media"width={width} height={height} src="https://www.youtube.com/embed/Ro30O9u7l8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p slot="description">
+In this presentation I talk about the futility of modelling my own compositional desires algorithmically, and divulge an approach that uses an optimisation algorithm to express simple composition constraints with complex sonic outcomes. You can read more about the project at <a href="annealing-strategies">this link.</a>
+</p>
+
+</MediaItem>
+<MediaItem>
+<iframe title="" slot="media" width={width} height={height} src="https://www.youtube.com/embed/r3uHMXmlPRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p slot="description">
+Kindly funded and assisted by <a href="https://www.pierrealexandretremblay.com">PA Tremblay</a> I produced a series of tutorial videos to support my work on the <a href="reacoma">ReaCoMa project</a>. For more info about the tools, see the project page to the left.
+</p>
+</MediaItem>
