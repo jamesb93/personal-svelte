@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;700&display=swap');
 html {
-	font-family: -apple-system, BlinkMacSystemFont, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+	/* font-family: -apple-system, BlinkMacSystemFont, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif; */
+	font-family: 'Harmattan', sans-serif;
 	font-size: 16px;
 	line-height: 1.2em;
 	text-rendering: optimizeLegibility;
