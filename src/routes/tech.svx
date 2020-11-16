@@ -23,7 +23,6 @@ I think it's nice to share, and as a way of giving recognition to what are mostl
 
 ## Web Development
 - [Svelte](https://svelte.dev), for creating reactive websites. Seriously - Svelte is amazing.
-- [Hugo](https://gohugo.io), for building static sites like this one using markdown and templates.
 - [peaks.js](https://github.com/bbc/peaks.js/tree/master) draws all my audio waveforms on this website and provides lovely playback functionality
 - [audiowaveform](https://github.com/bbc/audiowaveform) for making binary data out of audio files
 
