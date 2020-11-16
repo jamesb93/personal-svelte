@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;700&display=swap');
 html {
-	/* font-family: -apple-system, BlinkMacSystemFont, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif; */
-	font-family: 'Harmattan', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	text-rendering: optimizeLegibility;
@@ -11,7 +9,7 @@ html {
 }
 
 body {
-	color: rgba(0, 0, 0, 0.65);
+	color: rgba(0, 0, 0, 0.8);
 }
 
 h1, h2, h3, h4, h5, h6 {
