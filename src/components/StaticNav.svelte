@@ -28,9 +28,10 @@ class="container"
 		<li><a rel=prefetch on:click={handleClick} class:selected='{segment === "biomimicry"}'   			href='biomimicry'>biomimicry</a></li>
 		<br>
 		<span class="name">links</span>
-		<li><a rel=prefetch on:click={handleClick} class:selected='{segment === "people"}' href='people'>people</a></li>
-		<li><a target="blank" on:click={handleClick} href="https://www.github.com/jamesb93">Github</a></li>
+		<li><a rel=prefetch on:click={handleClick} class:selected='{segment === "creative-coding"}' href='creative-coding'>creative coding/consulting</a></li>
+		<!-- <li><a rel=prefetch on:click={handleClick} class:selected='{segment === "people"}' href='people'>people</a></li> -->
 		<li><a rel=prefetch on:click={handleClick} class:selected='{segment === "tech"}'   			href='tech'>tech/honourable mentions</a></li>
+		<li><a target="blank" on:click={handleClick} href="https://www.github.com/jamesb93">Github</a></li>
 	</ul>
 </nav>
 
