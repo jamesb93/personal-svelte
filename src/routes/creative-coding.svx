@@ -1,0 +1,59 @@
+<script>
+    import VideoMedia from "../components/VideoMedia.svelte"
+    import ImageMedia from "../components/ImageMedia.svelte"
+</script>
+
+<style>
+    .andie-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 10px
+    }
+</style>
+
+# creative coding / consulting
+
+I offer consulting on a range of creative coding topics and projects. In the past I have worked with artists to help them build instruments, build technical frameworks for installations or advise them on big picture aspects of incorporating technology into their practice.
+
+## Past Projects
+---
+### [Andie Brown](https://andiebrownsound.com) | Installation Technical Design and Implementation 
+
+<VideoMedia>
+    <iframe slot="media" title="Alucita Andie Brown" width="560" height="315" src="https://www.youtube.com/embed/OwzkNA4dwNA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</VideoMedia>
+
+Andie Brown is sound artist who works with glass. She approached me to help her build a suite of tools in Max for an installation titled 'Alucita'. For this installation she wanted to make a set of glasses wheeze like an organ by manipulating their natural harmonic resonances with transducers. I put together a package of objects for coordinating musical gestures between groups of glasses within the glass ensemble, focusing on a 'bpatcher first' interface that also offers low-level control through messages. This brought the process of composition closer to experimentation with the tools, allowing Andie to work on structuring the music and communicating her creative needs through simple mechanisms, rather than having to constantly return to code to develop her artistic ideas. Below are some screenshots of the tools and descriptions about them.
+
+<div class="andie-grid">
+<ImageMedia>
+    <img slot="media" src="img/ft.png" alt="Fundamental Tracker">
+    <p slot="caption">Fundamental tracker with low/high quality mode</p>
+</ImageMedia>
+
+<ImageMedia>
+    <img slot="media" src="img/pt.png" alt="Peak Tracker">
+    <p slot="caption">Peak tracker with low/high quality mode and variable number of peaks</p>
+</ImageMedia>
+
+<ImageMedia>
+    <img slot="media" src="img/freeze.png" alt="Spectral Freeze">
+    <p slot="caption">Stochastic spectral freezer using [FrameLib](https://github.com/AlexHarker/FrameLib)</p>
+</ImageMedia>
+
+<ImageMedia>
+    <img slot="media" src="img/fhg.png" alt="Fixed Harmonic Generator">
+    <p slot="caption">Generates harmonics given a fundamental frequency and a spacing of the harmonics</p>
+</ImageMedia>
+</div>
+
+---
+
+### [Griet Bayaert](http://www.grietbglass.com) | Installation Technical Design and Implementation 
+
+I worked with Griet over a long period of time, first helping her integrate a series of Arduino powered LED lights into an installation with Max. The Arduino acted as an interface between Max and the lights so that the activity of the lights could be mapped to audio features and analysis of installation attendees movements throughout the installation space. Funding for this project was provided through a-n. https://www.a-n.co.uk/blogs/artist-bursary-2018-interactive-programming-glass-light-and-sound/
+
+---
+
+*Rates can be discussed on a project-by-project basis through email.*
+
