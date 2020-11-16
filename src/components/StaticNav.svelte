@@ -37,16 +37,15 @@ class="container"
 
 
 <style>
-	.name {
-		color:rgb(0, 0, 0);
-	}
+	.name {color:rgb(0, 0, 0)}
+
 	.container {
 		position: fixed;
 		height: 100%;
 		background-color: white;
 		z-index: 99;
 		box-shadow: 1em;
-		padding-left: 5em;
+		padding-left: 1em;
 	}
 
 	nav {
@@ -55,7 +54,7 @@ class="container"
 		padding-left: 0;
 		transition: 0.1s;
 		height: 100%;
-		padding-right: 1em;
+		padding-right: 0.5em;
 		z-index: 200;
 	}
 	ul {
@@ -72,11 +71,6 @@ class="container"
 		padding-left: 0;
 	}
 
-	.selected {
-		display: inline-block;
-		color: rgb(0, 0, 0)
-	}
-	
 	ul li a {
 		text-decoration: none;
 		/* padding: 0.1em; */
@@ -94,5 +88,9 @@ class="container"
 	a:hover {
 		color: rgb(178, 178, 178)
 	}
-</style>
 
+	.selected {
+		display: inline-block;
+		color: rgb(0, 0, 0)
+	}
+</style>

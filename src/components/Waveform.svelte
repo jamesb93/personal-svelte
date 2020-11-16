@@ -18,15 +18,11 @@
     export let file;
     export let buffer;
 
-    function handleZoomIn () {
-        instance.zoom.zoomIn();
-    }
+    const handleZoomIn=()=>{instance.zoom.zoomIn()}
 
-    function handleZoomOut () {
-        instance.zoom.zoomOut();
-    }
+    const handleZoomOut=()=>{instance.zoom.zoomOut()}
 
-    function handlePlay () {
+    const handlePlay=()=>{
         if (playing){
             playing = false;
             instance.player.pause()
@@ -48,21 +44,19 @@
                     zoomview: zoom,
                     overview: overview
                 },
-                dataUri: { arraybuffer: buffer },
+                dataUri: {arraybuffer: buffer},
                 mediaElement: audio,
-                height: 30,
-                segmentStartMarkerColor: '#a0a0a0',
-                segmentEndMarkerColor: '#a0a0a0',
-                zoomWaveformColor: 'rgba(0, 30, 128, 1.0)',
+                height: 90,
+                zoomWaveformColor: 'rgba(0, 30, 128, 0.65)',
                 overviewWaveformColor: 'rgba(0, 15, 100, 1.0)',
                 overviewHighlightColor: 'grey',
-                segmentColor: 'rgba(255, 161, 39, 1)',
+                overviewHighlightOffset: 11,
                 playheadColor: 'rgba(0, 0, 0, 1)',
-                playheadTextColor: '#aaa',
-                showPlayheadTime: false,
-                pointMarkerColor: '#FF0000',
-                axisGridlineColor: '#ccc',
-                axisLabelColor: '#aaa',
+                playheadTextColor: 'rgba(150, 0, 0, 1)',
+                showPlayheadTime: true,
+                fontFamily: 'sans-serif',
+                pointMarkerColor: 'rgba(0, 0, 0, 0.0)',
+                axisGridlineColor: 'rgba(0, 0, 0, 0.0)',
                 randomizeSegmentColor: true,
             })
         } catch (err) {

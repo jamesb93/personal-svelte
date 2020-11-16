@@ -32,9 +32,9 @@
 	}
 
 	.content {
-		margin-top: 5em;
+		margin-top: 4em;
 		justify-content: center;
-		padding-left: 1em;
+		padding: 1em; /* Adds a gap around the content*/
 		height: 100%;
 	}
 
