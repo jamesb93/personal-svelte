@@ -32,13 +32,14 @@ class="container"
 		<!-- <li><a rel=prefetch on:click={handleClick} class:selected='{segment === "people"}' href='people'>people</a></li> -->
 		<li><a rel=prefetch on:click={handleClick} class:selected='{segment === "tech"}'   			href='tech'>tech/honourable mentions</a></li>
 		<li><a target="blank" on:click={handleClick} href="https://www.github.com/jamesb93">Github</a></li>
+		<li><a class="hidden" href='reconstruction_error'>reconstruction error</a></li>
 	</ul>
 </nav>
 
 
 <style>
 	.name {color:rgb(0, 0, 0)}
-
+	.hidden {color: white;}
 	.container {
 		position: fixed;
 		height: 100%;
