@@ -1,0 +1,51 @@
+<script>
+    import Waveform from "../components/Waveform.svelte"
+</script>
+
+<style>
+    .reduced-container {
+        width: 100%;
+    }
+</style>
+
+# reconstruction error
+
+This is a pre-release of the album "reconstruction error"
+
+
+<div class="reduced-container">
+<Waveform 
+title={""}
+subtitle={""}
+file={"/audio/dotmaxwave.mp3"}
+buffer={"/waveforms/dotmaxwave.dat"}
+/>
+
+<Waveform 
+title={"segmnoittet"}
+subtitle={""}
+file={"/audio/segmnoittet.mp3"}
+buffer={"/waveforms/segmnoittet.dat"}
+/>
+
+<Waveform 
+title={"340685107feisraebbaatsaed--isn.sqlite"}
+subtitle={""}
+file={"/audio/340685107feisraebbaatsaed--isn.sqlite.mp3"}
+buffer={"/waveforms/340685107feisraebbaatsaed--isn.sqlite.dat"}
+/>
+
+<Waveform 
+title={"sys.ji_"}
+subtitle={""}
+file={"/audio/sys.ji_.mp3"}
+buffer={"/waveforms/sys.ji_.dat"}
+/>
+
+<Waveform 
+title={"X86Desc.a "}
+subtitle={""}
+file={"/audio/X86Desc.a.mp3"}
+buffer={"/waveforms/X86Desc.a.dat"}
+/>
+</div>
