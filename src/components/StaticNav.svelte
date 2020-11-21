@@ -40,6 +40,7 @@ class="container"
 <style>
 	.name {color:rgb(0, 0, 0)}
 	.hidden {color: white;}
+	.hidden:hover {color: white;}
 	.container {
 		position: fixed;
 		height: 100%;
