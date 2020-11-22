@@ -9,3 +9,25 @@ I am a composer, sound artist and creative-coder from Perth, Western Australia. 
 I also run the [Creative Coding Hackspace](https://www.hudhack.space) that is loosely attached to the Huddersfield Creative Coding Lab.
 
 Photography by [Olivia Davies](https://www.oliviabettinadavies.com/) - (she is also a great composer!)
+
+<style>
+    .hidden {
+        visibility: hidden;
+    }
+</style>
+
+
+<div class="hidden">
+    <a class="name" rel=prefetch href='.'>James Bradbury</a>
+    <a rel=prefetch href='music'>music</a>
+    <a rel=prefetch href='media'>media</a>
+    <a rel=prefetch href='performances'>performances</a>
+    <a rel=prefetch href='code'>code</a>
+    <a rel=prefetch href='publications'>publications</a>
+    <a rel=prefetch href='reacoma'>ReaCoMa</a>
+    <a rel=prefetch href='annealing-strategies'>annealing strategies</a>
+    <a rel=prefetch href='biomimicry'>biomimicry</a>
+    <a rel=prefetch href='creative-coding'>creative coding/consulting</a>
+    <a rel=prefetch href='tech'>tech/honourable mentions</a>
+    <a rel=prefetch href='reconstruction_error'>reconstruction error</a>
+</div>
